@@ -1,6 +1,6 @@
 //Maya ASCII 2026 scene
 //Name: StarterStoreFront.ma
-//Last modified: Thu, Nov 12, 2026 12:42:25 PM
+//Last modified: Thu, Nov 12, 2026 12:49:25 PM
 //Codeset: 1252
 file -rdi 1 -ns "NikRig" -dr 1 -rfn "NikRigRN" -op "v=0;" -typ "mayaAscii" "C:/Users/david/Documents/Classes/ NoStringsAttached/Maya//assets/Charecters/Nik/NikRig.ma";
 file -rdi 1 -ns "misha_Ref" -dr 1 -rfn "misha_RefRN" -op "v=0;" -typ "mayaAscii"
@@ -20,7 +20,7 @@ fileInfo "product" "Maya 2026";
 fileInfo "version" "2026";
 fileInfo "cutIdentifier" "202510291147-60ec9eda33";
 fileInfo "osv" "Windows 10 Home v2009 (Build: 19045)";
-fileInfo "UUID" "3C8A4B01-4319-4FC6-CFAF-1E920BD0E05E";
+fileInfo "UUID" "C942BB31-4640-9644-779E-4F87EA8B1110";
 createNode transform -s -n "persp";
 	rename -uid "8E96A932-439F-8C3C-2144-438053185023";
 	setAttr ".v" no;
@@ -25581,7 +25581,6 @@ createNode place2dTexture -n "place2dTexture8";
 createNode shadingEngine -n "aiStandardSurface3SG";
 	rename -uid "ABF8E67C-41E7-A66C-BCF3-76977B04A6D3";
 	setAttr ".ihi" 0;
-	setAttr -s 2 ".dsm";
 	setAttr ".ro" yes;
 createNode materialInfo -n "materialInfo5";
 	rename -uid "2A580B1E-4172-1B6D-FC02-7BB48F6724A8";
@@ -25639,7 +25638,7 @@ createNode place2dTexture -n "place2dTexture12";
 createNode aiStandardSurface -n "storefrontStartingledge";
 	rename -uid "1F2169C9-4BDC-F536-9957-5BB826A964A0";
 createNode nodeGraphEditorInfo -n "hyperShadePrimaryNodeEditorSavedTabsInfo";
-	rename -uid "D0FD9CBB-4F0F-182A-E2EB-6EAFDC53D9E6";
+	rename -uid "1B11D9F3-400F-E24A-9B24-0682F42927BF";
 	setAttr ".tgi[0].tn" -type "string" "Untitled_1";
 	setAttr ".tgi[0].vl" -type "double2" 1421.4285149460773 -1730.2507607240254 ;
 	setAttr ".tgi[0].vh" -type "double2" 3592.7390039264769 -417.22800809489888 ;
